@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<body>
+    <h2>Student Registration</h2>
+    <form action="php/register_student.php" method="POST">
+        <label for="full_name">Full Name:</label>
+        <input type="text" name="full_name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" required><br>
+
+        <label for="phone_number">Phone Number:</label>
+        <input type="text" name="phone_number" required><br>
+
+        <label for="username">Username:</label>
+        <input type="text" name="username" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" required><br>
+
+        <label for="hostel_id">Hostel:</label>
+        <select name="hostel_id">
+            <option value="1">Hostel A</option>
+            <option value="2">Hostel B</option>
+        </select><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
